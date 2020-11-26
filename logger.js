@@ -10,7 +10,7 @@ module.exports = (req, res, next) => {
     const url = req.url;
     const ua = req.headers["user-agent"];
 
-    // console.log(`${ip} [${date}] "${method} ${url}" - ${ua}`);
+    console.log(`${ip} [${date}] "${method} ${url}" - ${ua}`);
 
     next();
 }
